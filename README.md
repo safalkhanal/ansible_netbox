@@ -36,7 +36,3 @@ License
 
 MIT / BSD
 
-Author Information
-------------------
-
-The role is created in 2021 by Safal Khanal (safalkhanal99@gmail.com) 
