@@ -1,0 +1,5 @@
+---
+- name: restart netbox
+  docker_compose:
+    project_src: "{{ netbox_base_dir }}"
+    restarted: true
