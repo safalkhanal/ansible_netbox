@@ -6,6 +6,7 @@ Ansible role to install Netbox
 Requirements
 ------------
 Pip, Docker and Git needs be installed. All of which can be done so using the role.Docker can be installed using following role:
+
 respiro.install_docker
 
 
@@ -21,6 +22,7 @@ netbox_admin_password: set admin password
 Dependencies
 ------------
 VM is needed to install. Tested with following OS:
+
 Ubuntu 18.04 (Bionic)
 
 Example Playbook
