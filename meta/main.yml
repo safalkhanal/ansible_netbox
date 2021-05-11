@@ -1,7 +1,8 @@
 galaxy_info:
   author: Safal
-  description: Ansible role to install netbox
   company: Respiro Pvt Ltd
+  description: Ansible role to install netbox
+
 
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
