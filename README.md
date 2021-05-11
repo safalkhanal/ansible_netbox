@@ -1,4 +1,4 @@
-deploy_netbox
+ansible_role_netbox
 =========
 
 Ansible role to install Netbox 
@@ -31,8 +31,8 @@ Example Playbook
     - hosts: servers
       become: yes
       roles:
-         - respiro.install_docker
-         - respiro.deploy_netbox
+         - respiro.ansible_role_docker
+         - respiro.ansible_role_netbox
 
 License
 -------
