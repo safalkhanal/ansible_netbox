@@ -5,14 +5,14 @@ Ansible role to install Netbox
 
 Requirements
 ------------
-Pip, Docker and Git needs be installed. All of which can be done so using the role.Docker can be installed using following role:
+Docker, along with pip and git can be installed using following role:
 
 respiro.install_docker
 
 
 Role Variables
 --------------
-All the  variables are listed in default folder. Some of the variables used are listed below:
+All the variables are in "default" folder. Some of the variables used are listed below:
 
 netbox_base_dir : Directory path to install netbox
 netbox_admin_email : set admin email
@@ -31,7 +31,8 @@ Example Playbook
     - hosts: servers
       become: yes
       roles:
-         - role: respiro.deploy_netbox
+         - respiro.install_docker
+         - respiro.deploy_netbox
 
 License
 -------
